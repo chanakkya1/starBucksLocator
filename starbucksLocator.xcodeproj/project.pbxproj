@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA0FCFF21EABB6600066F653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0FCFF11EABB6600066F653 /* AppDelegate.swift */; };
+		BA0FCFF41EABB6600066F653 /* StarBucksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0FCFF31EABB6600066F653 /* StarBucksViewController.swift */; };
+		BA0FCFF71EABB6600066F653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0FCFF51EABB6600066F653 /* Main.storyboard */; };
+		BA0FCFF91EABB6600066F653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0FCFF81EABB6600066F653 /* Assets.xcassets */; };
+		BA0FCFFC1EABB6600066F653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0FCFFA1EABB6600066F653 /* LaunchScreen.storyboard */; };
+		BA0FD0071EABB6610066F653 /* starbucksLocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0FD0061EABB6610066F653 /* starbucksLocatorTests.swift */; };
+		BA0FD0121EABB6610066F653 /* starbucksLocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0FD0111EABB6610066F653 /* starbucksLocatorUITests.swift */; };
+		BA0FD0201EABB6D10066F653 /* DataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0FD01F1EABB6D10066F653 /* DataManger.swift */; };
+		BA0FD0221EABB71B0066F653 /* RequestResponseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0FD0211EABB71B0066F653 /* RequestResponseManager.swift */; };
+		BA0FD0251EABCC440066F653 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0FD0241EABCC440066F653 /* CoreLocation.framework */; };
+		BA0FD0291EAC2A510066F653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0FD0281EAC2A510066F653 /* ViewController.swift */; };
+		BA1E40FC1EAC4433008F09FA /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1E40FB1EAC4433008F09FA /* LocationCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA0FD0031EABB6610066F653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA0FCFE61EABB6600066F653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA0FCFED1EABB6600066F653;
+			remoteInfo = starbucksLocator;
+		};
+		BA0FD00E1EABB6610066F653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA0FCFE61EABB6600066F653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA0FCFED1EABB6600066F653;
+			remoteInfo = starbucksLocator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA0FCFEE1EABB6600066F653 /* starbucksLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starbucksLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0FCFF11EABB6600066F653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA0FCFF31EABB6600066F653 /* StarBucksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarBucksViewController.swift; sourceTree = "<group>"; };
+		BA0FCFF61EABB6600066F653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA0FCFF81EABB6600066F653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA0FCFFB1EABB6600066F653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA0FCFFD1EABB6600066F653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0FD0021EABB6610066F653 /* starbucksLocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = starbucksLocatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0FD0061EABB6610066F653 /* starbucksLocatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starbucksLocatorTests.swift; sourceTree = "<group>"; };
+		BA0FD0081EABB6610066F653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0FD00D1EABB6610066F653 /* starbucksLocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = starbucksLocatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0FD0111EABB6610066F653 /* starbucksLocatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starbucksLocatorUITests.swift; sourceTree = "<group>"; };
+		BA0FD0131EABB6610066F653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0FD01F1EABB6D10066F653 /* DataManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManger.swift; sourceTree = "<group>"; };
+		BA0FD0211EABB71B0066F653 /* RequestResponseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestResponseManager.swift; sourceTree = "<group>"; };
+		BA0FD0241EABCC440066F653 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BA0FD0281EAC2A510066F653 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA1E40FB1EAC4433008F09FA /* LocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA0FCFEB1EABB6600066F653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0FD0251EABCC440066F653 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0FCFFF1EABB6610066F653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0FD00A1EABB6610066F653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA0FCFE51EABB6600066F653 = {
+			isa = PBXGroup;
+			children = (
+				BA0FCFF01EABB6600066F653 /* starbucksLocator */,
+				BA0FD0051EABB6610066F653 /* starbucksLocatorTests */,
+				BA0FD0101EABB6610066F653 /* starbucksLocatorUITests */,
+				BA0FCFEF1EABB6600066F653 /* Products */,
+				BA0FD0231EABCC420066F653 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA0FCFEF1EABB6600066F653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA0FCFEE1EABB6600066F653 /* starbucksLocator.app */,
+				BA0FD0021EABB6610066F653 /* starbucksLocatorTests.xctest */,
+				BA0FD00D1EABB6610066F653 /* starbucksLocatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA0FCFF01EABB6600066F653 /* starbucksLocator */ = {
+			isa = PBXGroup;
+			children = (
+				BA1E40FB1EAC4433008F09FA /* LocationCell.swift */,
+				BA0FCFF11EABB6600066F653 /* AppDelegate.swift */,
+				BA0FCFF31EABB6600066F653 /* StarBucksViewController.swift */,
+				BA0FD0281EAC2A510066F653 /* ViewController.swift */,
+				BA0FCFF51EABB6600066F653 /* Main.storyboard */,
+				BA0FCFF81EABB6600066F653 /* Assets.xcassets */,
+				BA0FCFFA1EABB6600066F653 /* LaunchScreen.storyboard */,
+				BA0FCFFD1EABB6600066F653 /* Info.plist */,
+				BA0FD01F1EABB6D10066F653 /* DataManger.swift */,
+				BA0FD0211EABB71B0066F653 /* RequestResponseManager.swift */,
+			);
+			path = starbucksLocator;
+			sourceTree = "<group>";
+		};
+		BA0FD0051EABB6610066F653 /* starbucksLocatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA0FD0061EABB6610066F653 /* starbucksLocatorTests.swift */,
+				BA0FD0081EABB6610066F653 /* Info.plist */,
+			);
+			path = starbucksLocatorTests;
+			sourceTree = "<group>";
+		};
+		BA0FD0101EABB6610066F653 /* starbucksLocatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA0FD0111EABB6610066F653 /* starbucksLocatorUITests.swift */,
+				BA0FD0131EABB6610066F653 /* Info.plist */,
+			);
+			path = starbucksLocatorUITests;
+			sourceTree = "<group>";
+		};
+		BA0FD0231EABCC420066F653 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA0FD0241EABCC440066F653 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA0FCFED1EABB6600066F653 /* starbucksLocator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0FD0161EABB6610066F653 /* Build configuration list for PBXNativeTarget "starbucksLocator" */;
+			buildPhases = (
+				BA0FCFEA1EABB6600066F653 /* Sources */,
+				BA0FCFEB1EABB6600066F653 /* Frameworks */,
+				BA0FCFEC1EABB6600066F653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = starbucksLocator;
+			productName = starbucksLocator;
+			productReference = BA0FCFEE1EABB6600066F653 /* starbucksLocator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA0FD0011EABB6610066F653 /* starbucksLocatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0FD0191EABB6610066F653 /* Build configuration list for PBXNativeTarget "starbucksLocatorTests" */;
+			buildPhases = (
+				BA0FCFFE1EABB6610066F653 /* Sources */,
+				BA0FCFFF1EABB6610066F653 /* Frameworks */,
+				BA0FD0001EABB6610066F653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA0FD0041EABB6610066F653 /* PBXTargetDependency */,
+			);
+			name = starbucksLocatorTests;
+			productName = starbucksLocatorTests;
+			productReference = BA0FD0021EABB6610066F653 /* starbucksLocatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA0FD00C1EABB6610066F653 /* starbucksLocatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0FD01C1EABB6610066F653 /* Build configuration list for PBXNativeTarget "starbucksLocatorUITests" */;
+			buildPhases = (
+				BA0FD0091EABB6610066F653 /* Sources */,
+				BA0FD00A1EABB6610066F653 /* Frameworks */,
+				BA0FD00B1EABB6610066F653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA0FD00F1EABB6610066F653 /* PBXTargetDependency */,
+			);
+			name = starbucksLocatorUITests;
+			productName = starbucksLocatorUITests;
+			productReference = BA0FD00D1EABB6610066F653 /* starbucksLocatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA0FCFE61EABB6600066F653 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "chanakkya mati";
+				TargetAttributes = {
+					BA0FCFED1EABB6600066F653 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					BA0FD0011EABB6610066F653 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA0FCFED1EABB6600066F653;
+					};
+					BA0FD00C1EABB6610066F653 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA0FCFED1EABB6600066F653;
+					};
+				};
+			};
+			buildConfigurationList = BA0FCFE91EABB6600066F653 /* Build configuration list for PBXProject "starbucksLocator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA0FCFE51EABB6600066F653;
+			productRefGroup = BA0FCFEF1EABB6600066F653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA0FCFED1EABB6600066F653 /* starbucksLocator */,
+				BA0FD0011EABB6610066F653 /* starbucksLocatorTests */,
+				BA0FD00C1EABB6610066F653 /* starbucksLocatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA0FCFEC1EABB6600066F653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0FCFFC1EABB6600066F653 /* LaunchScreen.storyboard in Resources */,
+				BA0FCFF91EABB6600066F653 /* Assets.xcassets in Resources */,
+				BA0FCFF71EABB6600066F653 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0FD0001EABB6610066F653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0FD00B1EABB6610066F653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA0FCFEA1EABB6600066F653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1E40FC1EAC4433008F09FA /* LocationCell.swift in Sources */,
+				BA0FD0291EAC2A510066F653 /* ViewController.swift in Sources */,
+				BA0FCFF41EABB6600066F653 /* StarBucksViewController.swift in Sources */,
+				BA0FCFF21EABB6600066F653 /* AppDelegate.swift in Sources */,
+				BA0FD0221EABB71B0066F653 /* RequestResponseManager.swift in Sources */,
+				BA0FD0201EABB6D10066F653 /* DataManger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0FCFFE1EABB6610066F653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0FD0071EABB6610066F653 /* starbucksLocatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0FD0091EABB6610066F653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0FD0121EABB6610066F653 /* starbucksLocatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA0FD0041EABB6610066F653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA0FCFED1EABB6600066F653 /* starbucksLocator */;
+			targetProxy = BA0FD0031EABB6610066F653 /* PBXContainerItemProxy */;
+		};
+		BA0FD00F1EABB6610066F653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA0FCFED1EABB6600066F653 /* starbucksLocator */;
+			targetProxy = BA0FD00E1EABB6610066F653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA0FCFF51EABB6600066F653 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA0FCFF61EABB6600066F653 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA0FCFFA1EABB6600066F653 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA0FCFFB1EABB6600066F653 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA0FD0141EABB6610066F653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA0FD0151EABB6610066F653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA0FD0171EABB6610066F653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = starbucksLocator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanakkyadev.starbucksLocator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA0FD0181EABB6610066F653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = starbucksLocator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanakkyadev.starbucksLocator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BA0FD01A1EABB6610066F653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = starbucksLocatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanakkyadev.starbucksLocatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/starbucksLocator.app/starbucksLocator";
+			};
+			name = Debug;
+		};
+		BA0FD01B1EABB6610066F653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = starbucksLocatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanakkyadev.starbucksLocatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/starbucksLocator.app/starbucksLocator";
+			};
+			name = Release;
+		};
+		BA0FD01D1EABB6610066F653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = starbucksLocatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanakkyadev.starbucksLocatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = starbucksLocator;
+			};
+			name = Debug;
+		};
+		BA0FD01E1EABB6610066F653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = starbucksLocatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanakkyadev.starbucksLocatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = starbucksLocator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA0FCFE91EABB6600066F653 /* Build configuration list for PBXProject "starbucksLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0FD0141EABB6610066F653 /* Debug */,
+				BA0FD0151EABB6610066F653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0FD0161EABB6610066F653 /* Build configuration list for PBXNativeTarget "starbucksLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0FD0171EABB6610066F653 /* Debug */,
+				BA0FD0181EABB6610066F653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0FD0191EABB6610066F653 /* Build configuration list for PBXNativeTarget "starbucksLocatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0FD01A1EABB6610066F653 /* Debug */,
+				BA0FD01B1EABB6610066F653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0FD01C1EABB6610066F653 /* Build configuration list for PBXNativeTarget "starbucksLocatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0FD01D1EABB6610066F653 /* Debug */,
+				BA0FD01E1EABB6610066F653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA0FCFE61EABB6600066F653 /* Project object */;
+}
